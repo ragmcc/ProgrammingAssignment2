@@ -1,7 +1,8 @@
-## This is Matrix constructor that can cache values
-## of complex operations done to it.
+## This is a special Matrix object, that can 
+## hold as cache result values of complex 
+## operations run on it. 
 
-## Constructur function of the Matrix
+## Constructor function of the Matrix
 makeCacheMatrix <- function(x = matrix()) {
     # Local value that hold the Inverse Matrix
     inverse <- NULL
